@@ -24,6 +24,7 @@ React实现评论功能。
 CommentInput 如何向 CommentApp 传递的数据？父组件 CommentApp 只需要通过 props 给子组件 CommentInput 传入一个回调函数。当用户点击发布按钮的时候，CommentInput 调用 props 中的回调函数并且将 state 传入该函数即可。
 
 在发布按钮上绑定一个click事件。
+
 ![Alt text](/my-app/imgs/1.png)
 
 ![Alt text](/my-app/imgs/2.png)
