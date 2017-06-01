@@ -25,10 +25,12 @@ CommentInput 如何向 CommentApp 传递的数据？父组件 CommentApp 只需�
 
 在发布按钮上绑定一个click事件。
 ![Alt text](/my-app/imgs/1.png)
+
 ![Alt text](/my-app/imgs/2.png)
 
 ### CommentApp
 此时就要通过传入的回调来获取到新增的评论数据
+![Alt text](/my-app/imgs/3.png)
 
 ### CommentList 
 CommentList 的数据应该是由父组件 CommentApp 传进来的，删除测试数据，改成从 props 获取评论数据;
