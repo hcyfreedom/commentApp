@@ -40,6 +40,6 @@ CommentList 的数据应该是由父组件 CommentApp 传进来的，删除测�
 
 修改 handleSubmitComment ：每当用户发布评论的时候，就把评论数据插入 this.state.comments 中，然后通过 setState 把数据更新到页面上
 
-###以上。参考：[胡子大哈](http://huziketang.com/books/react/)
+### 以上。参考：[胡子大哈](http://huziketang.com/books/react/)
 
                  
